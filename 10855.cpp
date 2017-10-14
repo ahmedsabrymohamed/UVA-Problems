@@ -34,7 +34,7 @@ void r90(string *m,string *mr,long ns){
    int ir;
    for(int i=0;i<ns;i++)
    for(int i2=0;i2<ns;i2++){
-         //cout<<ns-1-i2<<" "<<i<<" "<<i2<<endl;
+      
       mr[i][i2]=m[ns-1-i2][i];
 
    }
