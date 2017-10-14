@@ -17,8 +17,8 @@ using namespace std;
 int main()
 {
 
- freopen ("out.txt","w",stdout);
- freopen ("in.txt","r",stdin);
+ //freopen ("out.txt","w",stdout);
+ //freopen ("in.txt","r",stdin);
 
    moon7
    ull s;
@@ -38,7 +38,7 @@ int main()
                b|=(1<<i);
             }
          }
-         cout<<endl;
+        
          cout<<a<<" "<<b<<endl;
       }
 
